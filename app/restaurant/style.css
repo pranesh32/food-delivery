@@ -1,0 +1,55 @@
+
+.header-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-wrapper ul{
+    display: flex;
+}
+.header-wrapper ul li 
+{
+list-style-type: none;
+padding: 5px;
+font-size: 20px;
+}
+
+.header-wrapper ul li a{
+    text-decoration: none;
+}
+
+.header-wrapper ul li button
+{
+     background-color:transparent;
+     color: rgb(104, 45, 143);
+     border: none;
+     font-size: 20px;
+     cursor: pointer;
+}
+.footer-wrapper{
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.button-h
+{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(34, 77, 115);
+    background-color: transparent;
+    
+}
+
+.button-link
+{
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 20px;
+  color: skyblue;
+}
